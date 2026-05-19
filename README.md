@@ -1,3 +1,23 @@
+# 🚀 Interactive DSA Pathfinding & Labyrinth Visualizer
+
+A sleek, minimal, high-performance web application designed to benchmark and visualize classic graph traversal and maze generation algorithms in real-time. Built with a digital-first, high-contrast dark aesthetic to make core computer science concepts visually intuitive.
+
+## 🛠️ Tech Stack & Architecture
+- **Frontend Framework:** React / Vite (Lightning-fast HMR and bundling)
+- **Styling:** Custom CSS3 Matrix Grid (Zero UI-blocking rendering loops)
+- **State Management:** Asynchronous event queues for non-blocking UI frame updates
+
+## 🧠 Algorithms Implemented
+
+### 🔍 Pathfinders
+1. **A* Search (Weighted):** Uses a Manhattan Distance heuristic ($f(n) = g(n) + h(n)$) to navigate directly toward the target, significantly reducing explored nodes compared to unguided variants.
+2. **Dijkstra's Algorithm (Weighted):** The golden standard for shortest paths; explores uniformly outward in expanding waves.
+3. **Breadth-First Search (BFS) (Unweighted):** Guarantees the shortest path on unweighted graphs using a FIFO queue.
+4. **Depth-First Search (DFS) (Unweighted):** Traverses aggressively down individual memory branches using a LIFO stack—excellent for visualizing worst-case path routing.
+
+### 🧱 Maze Generators
+- **Recursive Division:** A fractal-based geometric generator that splits chambers recursively with walls while algorithmically maintaining exactly one open, valid clearance path to guarantee solvability.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
